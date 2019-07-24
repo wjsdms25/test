@@ -50,6 +50,8 @@ flutter:
   - image/plus.png
   - image/plus_shadow.png
   - image/main_img.jpeg
+  - image/main/time.png
+  - image/sub2/text.jpg
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 
@@ -64,11 +66,11 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+  fonts:
+    - family: NotoSansCJKkr
+      fonts:
+        - asset: font/NotoSansCJKkr-Regular.otf
+        - asset: font/NotoSansCJKkr-Light.otf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:

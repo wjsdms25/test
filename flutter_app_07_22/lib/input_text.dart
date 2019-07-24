@@ -16,21 +16,16 @@ class _TextPageState extends State<InputText>{
       appBar: CupertinoNavigationBar(
         middle: Text('InputText'),
       ),
-      body: Column(
-        children: <Widget>[
-          CupertinoButton(
-            child: Text('on/off 스위치 버튼'),
-          ),
-          CupertinoSwitch(
-            value:_switch,
-            onChanged : (bool value) {
-              setState((){
-                _switch=value;
-              });
-            },
-          )
-        ],
-      ),
+      body: Container(
+        decoration: BoxDecoration(
+            image: new DecorationImage(
+                image: new AssetImage('image/sub2/text.jpg'),
+                fit: BoxFit.cover)
+        )
+      )
+        ,
+
+
     );
   }
 }
